@@ -26,7 +26,7 @@ class Model {
         
 //        get data task from the url session
         
-        let datatask = session.dataTask(with: url!) { (data, response, error) in
+        let dataTask = session.dataTask(with: url!) { (data, response, error) in
             
 //            check for error
             if error != nil || data == nil{
@@ -38,6 +38,7 @@ class Model {
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .iso8601
                 let response = try decoder.decode(Response.self, from: data!)
+                
                  dump(response)
             }
             catch{
@@ -48,6 +49,6 @@ class Model {
         
 //        kick off the task
         
-        datatask.resume()
+        dataTask.resume()
     }
 }
