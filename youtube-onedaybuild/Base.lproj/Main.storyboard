@@ -19,36 +19,36 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VideoCell" rowHeight="339" id="7s4-hh-VUG" customClass="VideoTableViewCell" customModule="youtube_onedaybuild" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="339"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VideoCell" rowHeight="326" id="7s4-hh-VUG" customClass="VideoTableViewCell" customModule="youtube_onedaybuild" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="326"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7s4-hh-VUG" id="vJQ-zf-Kso">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="339"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="326"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Yi2-1o-Ijs">
-                                                    <rect key="frame" x="0.0" y="11" width="414" height="317"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Yi2-1o-Ijs">
+                                                    <rect key="frame" x="40" y="31" width="334" height="284"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="CcJ-nf-1zm">
-                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="CcJ-nf-1zm">
+                                                            <rect key="frame" x="0.0" y="0.0" width="334" height="188"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="CcJ-nf-1zm" secondAttribute="height" multiplier="1280:720" id="mxd-5e-QmA"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlx-jC-KBJ">
-                                                            <rect key="frame" x="0.0" y="243" width="414" height="21.5"/>
+                                                            <rect key="frame" x="0.0" y="202" width="334" height="21.5"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVM-3Q-FeF">
-                                                            <rect key="frame" x="0.0" y="274.5" width="414" height="20.5"/>
+                                                            <rect key="frame" x="0.0" y="237.5" width="334" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Chanell Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEM-gJ-dts">
-                                                            <rect key="frame" x="0.0" y="305" width="414" height="12"/>
+                                                            <rect key="frame" x="0.0" y="272" width="334" height="12"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="12" id="NDG-dV-lhe"/>
                                                             </constraints>
@@ -60,11 +60,18 @@
                                                 </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="Yi2-1o-Ijs" secondAttribute="bottom" id="2fg-Qo-G1m"/>
-                                                <constraint firstItem="Yi2-1o-Ijs" firstAttribute="leading" secondItem="vJQ-zf-Kso" secondAttribute="leading" id="5sk-Pe-rD4"/>
-                                                <constraint firstItem="Yi2-1o-Ijs" firstAttribute="top" secondItem="vJQ-zf-Kso" secondAttribute="topMargin" id="VFp-O6-8NA"/>
+                                                <constraint firstItem="Yi2-1o-Ijs" firstAttribute="bottom" secondItem="vJQ-zf-Kso" secondAttribute="bottomMargin" id="HPO-HN-sJa"/>
+                                                <constraint firstItem="Yi2-1o-Ijs" firstAttribute="leading" secondItem="vJQ-zf-Kso" secondAttribute="leadingMargin" constant="20" id="R7r-QK-VrH"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Yi2-1o-Ijs" secondAttribute="trailing" constant="20" id="ewd-Hf-7OF"/>
+                                                <constraint firstItem="Yi2-1o-Ijs" firstAttribute="top" secondItem="vJQ-zf-Kso" secondAttribute="topMargin" constant="20" id="ydq-qu-yLv"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="chanellnameLabel" destination="WEM-gJ-dts" id="Fki-t9-sBn"/>
+                                            <outlet property="dateLabel" destination="fVM-3Q-FeF" id="Rlm-QX-tEu"/>
+                                            <outlet property="thumbnailImageView" destination="CcJ-nf-1zm" id="FZu-BJ-y6y"/>
+                                            <outlet property="titleView" destination="dlx-jC-KBJ" id="rip-ZC-WM8"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
