@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A27D7EFA24E8060A00286850 /* ConstantTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27D7EF924E8060A00286850 /* ConstantTemplate.swift */; };
 		A29EFE7E24E75E7D007E41C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29EFE7D24E75E7D007E41C0 /* AppDelegate.swift */; };
 		A29EFE8024E75E7D007E41C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29EFE7F24E75E7D007E41C0 /* SceneDelegate.swift */; };
 		A29EFE8224E75E7D007E41C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29EFE8124E75E7D007E41C0 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A27D7EF924E8060A00286850 /* ConstantTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantTemplate.swift; sourceTree = "<group>"; };
 		A29EFE7A24E75E7D007E41C0 /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29EFE7D24E75E7D007E41C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A29EFE7F24E75E7D007E41C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				A29EFE9124E7C152007E41C0 /* Constance.swift */,
 				A29EFE9324E7C4F3007E41C0 /* Video.swift */,
 				A29EFE9824E7E305007E41C0 /* Response.swift */,
+				A27D7EF924E8060A00286850 /* ConstantTemplate.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				A29EFE8024E75E7D007E41C0 /* SceneDelegate.swift in Sources */,
 				A29EFE9424E7C4F3007E41C0 /* Video.swift in Sources */,
 				A29EFE9924E7E305007E41C0 /* Response.swift in Sources */,
+				A27D7EFA24E8060A00286850 /* ConstantTemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
