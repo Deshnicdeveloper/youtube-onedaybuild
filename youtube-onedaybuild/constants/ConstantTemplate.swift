@@ -16,4 +16,5 @@ import Foundation
 //    static var API_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=\(Constance.PLAYLIST_ID)&key=\(Constance.API_KEY)"
 
 //static var VIDEOCELL_ID = "VideoCell"
+//static var YT_EMBED_URL = "https://www.youtube.com/embed/"
 //}

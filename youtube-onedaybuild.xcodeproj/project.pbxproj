@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2178CBF24E834E40037EEAC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2178CBE24E834E40037EEAC /* DetailViewController.swift */; };
+		A2178CC224E8422D0037EEAC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2178CC124E8422D0037EEAC /* WebKit.framework */; };
 		A27D7EFA24E8060A00286850 /* ConstantTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27D7EF924E8060A00286850 /* ConstantTemplate.swift */; };
 		A27D7EFC24E81F9C00286850 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27D7EFB24E81F9C00286850 /* VideoTableViewCell.swift */; };
 		A29EFE7E24E75E7D007E41C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29EFE7D24E75E7D007E41C0 /* AppDelegate.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2178CBE24E834E40037EEAC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A2178CC124E8422D0037EEAC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		A27D7EF924E8060A00286850 /* ConstantTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantTemplate.swift; sourceTree = "<group>"; };
 		A27D7EFB24E81F9C00286850 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		A29EFE7A24E75E7D007E41C0 /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,17 +49,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2178CC224E8422D0037EEAC /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2178CC024E8422D0037EEAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2178CC124E8422D0037EEAC /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A27D7EFD24E81FB100286850 /* view */ = {
 			isa = PBXGroup;
 			children = (
 				A29EFE8124E75E7D007E41C0 /* ViewController.swift */,
 				A27D7EFB24E81F9C00286850 /* VideoTableViewCell.swift */,
+				A2178CBE24E834E40037EEAC /* DetailViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -91,6 +105,7 @@
 			children = (
 				A29EFE7C24E75E7D007E41C0 /* youtube-onedaybuild */,
 				A29EFE7B24E75E7D007E41C0 /* Products */,
+				A2178CC024E8422D0037EEAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2178CBF24E834E40037EEAC /* DetailViewController.swift in Sources */,
 				A29EFE9224E7C152007E41C0 /* Constance.swift in Sources */,
 				A29EFE8224E75E7D007E41C0 /* ViewController.swift in Sources */,
 				A29EFE7E24E75E7D007E41C0 /* AppDelegate.swift in Sources */,
