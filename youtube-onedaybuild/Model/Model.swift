@@ -8,7 +8,15 @@
 
 import Foundation
 
+protocol ModalDelegate {
+    func videosFetched(_ videos:[Video]) 
+    
+}
+
 class Model {
+    
+    var delegate :ModalDelegate?
+    
     
     func getVideo() {
         
@@ -38,8 +46,15 @@ class Model {
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .iso8601
                 let response = try decoder.decode(Response.self, from: data!)
-                
-                 dump(response)
+                if response.items != nil {
+                    DispatchQueue.main.async {
+                        
+                        // call the "videoReturned methosd of the deleagte
+                        
+                            self.delegate?.videosFetched(response.items!)
+                    }
+            }
+//                 dump(response)
             }
             catch{
                 
